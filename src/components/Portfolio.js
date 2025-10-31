@@ -209,7 +209,7 @@ function Portfolio() {
         </h2>
         <div className="row g-4 text-center">
           {[ 
-            { Name:"Harika Gurazala",Desc:"Founder/Managing Director"},{Name:"Srinivas Gurazala",Desc:"Founder/Director"},{Name:"Pavan Kasiboina", Desc:"DevOps"}].map((role, index) => (
+            { Name:"Harika Gurazala",Desc:"Founder/Managing Director"},{Name:"Srinivas Gurazala",Desc:"Founder/Director"},{Name:"Pavan Kasiboina", Desc:"DevOps Engineer"}].map((role, index) => (
             <div key={index} className="col-md-4">
               <motion.div
                 className="card border-0 shadow-sm p-3"
