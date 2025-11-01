@@ -248,7 +248,7 @@ function Portfolio() {
             Have questions or want to collaborate? We’d love to hear from you.
           </div>
           <div className="text-center mb-1">
-            modeofcommunication25@gmail.com
+            info@mocconnect.in
           </div>
         </div>
       </section>
