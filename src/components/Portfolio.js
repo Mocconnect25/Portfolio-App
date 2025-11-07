@@ -157,7 +157,7 @@ function Portfolio() {
             What We&apos;re Building
           </h2>
       
-          <p className="lead text-center mx-auto" style={{ maxWidth: 800 }}>
+          <p className="text-center mx-auto" style={{ maxWidth: 800 }}>
             MoC Connect is a real-time communication and task-sharing app for local
             supermarkets and kirana stores. Vendors list items with prices and receive
             customer lists directly via chat. Customers review prices, send lists, and
