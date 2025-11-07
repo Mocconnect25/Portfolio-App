@@ -141,10 +141,10 @@ function Portfolio() {
       </section>
 
       {/* Product Overview */}
-       <section id="product" className="py-5" style={{ backgroundColor: "#f8f9fa" }}>
+       <section id="product" className="py-5" >
         <div className="container">
           <h2
-            className="text-3xl mb-4"
+            className="text-3xl font-semibold mb-4"
             style={{
               color: "#1f6ea7",
               textAlign: "center",
@@ -246,43 +246,6 @@ function Portfolio() {
         </div>
       </section>
 
-
-      {/* Our Team */}
-      <section id="team" className="container py-5">
-        <h2
-          className="text-3xl font-semibold mb-4"
-          style={{
-            color: "#1f6ea7",
-            textAlign: "center",
-            textDecoration: "none",
-            borderBottom: "none",
-            boxShadow: "none",
-            display: "block"
-          }}
-        >
-          Our Team
-        </h2>
-        <div className="row g-4 text-center">
-          {[ 
-            { Name:"Harika Gurazala",Desc:"Founder/Managing Director"},{Name:"Srinivas Gurazala",Desc:"Founder/Director"},{Name:"Pavan Kasiboina", Desc:"DevOps Engineer"}].map((role, index) => (
-            <div key={index} className="col-md-4">
-              <motion.div
-                className="card border-0 shadow-sm p-3"
-                whileHover={{ scale: 1.05 }}
-              >
-                <img
-                  src={USerImag} style={{ height: '60px' }}
-                  className="rounded-circle mx-auto d-block mb-3"
-                  alt={'UserImage'}
-                />
-                <h5 className="fw-bold textcolour"> {role.Name}</h5>
-                <p>{role.Desc}</p>
-              </motion.div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* Recognitions */}
       <section id="recognitions" className="py-5">
         <div className="container">
@@ -320,6 +283,45 @@ function Portfolio() {
           </div>
         </div>
       </section>
+
+
+      {/* Our Team */}
+      <section id="team" className="container py-5" style={{ backgroundColor: "#f8f9fa" }}>
+        <h2
+          className="text-3xl font-semibold mb-4"
+          style={{
+            color: "#1f6ea7",
+            textAlign: "center",
+            textDecoration: "none",
+            borderBottom: "none",
+            boxShadow: "none",
+            display: "block"
+          }}
+        >
+          Our Team
+        </h2>
+        <div className="row g-4 text-center">
+          {[ 
+            { Name:"Harika Gurazala",Desc:"Founder/Managing Director"},{Name:"Srinivas Gurazala",Desc:"Founder/Director"},{Name:"Pavan Kasiboina", Desc:"DevOps Engineer"}].map((role, index) => (
+            <div key={index} className="col-md-4">
+              <motion.div
+                className="card border-0 shadow-sm p-3"
+                whileHover={{ scale: 1.05 }}
+              >
+                <img
+                  src={USerImag} style={{ height: '60px' }}
+                  className="rounded-circle mx-auto d-block mb-3"
+                  alt={'UserImage'}
+                />
+                <h5 className="fw-bold textcolour"> {role.Name}</h5>
+                <p>{role.Desc}</p>
+              </motion.div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      
 
       {/* Contact Us */}
       <section id="contact" className="py-5" style={{ backgroundColor: "#1f6ea7" }}>
