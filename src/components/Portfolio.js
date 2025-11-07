@@ -262,7 +262,7 @@ function Portfolio() {
                   display: "block"
                 }}
               >
-                Recognitions &amp; Partnerships
+                Recognitions
               </h2>
               <p className="mb-2 fw-semibold" style={{ color: "#1f6ea7" }}>
                 Recognized by DPIIT, Government of India
