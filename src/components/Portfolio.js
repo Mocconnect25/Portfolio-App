@@ -141,11 +141,18 @@ function Portfolio() {
       </section>
 
       {/* Product Overview */}
-      <section id="product" className="py-5" style={{ backgroundColor: "#f8f9fa" }}>
+       <section id="product" className="py-5" style={{ backgroundColor: "#f8f9fa" }}>
         <div className="container">
           <h2
-            className="text-3xl font-semibold mb-4 text-center"
-            style={{ color: "#1f6ea7" }}
+            className="text-3xl font-semibold mb-4"
+            style={{
+              color: "#1f6ea7",
+              textAlign: "center",
+              textDecoration: "none",
+              borderBottom: "none",
+              boxShadow: "none",
+              display: "block"
+            }}
           >
             What We&apos;re Building
           </h2>
