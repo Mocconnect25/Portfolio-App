@@ -97,7 +97,7 @@ function Portfolio() {
 
 
       {/* About Us */}
-      <section id="about" className="container py-5 text-center">
+      <section id="about" className="container py-5 text-center" style={{ backgroundColor: "#f8f9fa" }}>
         <div className="row justify-content-center">
           <h2
             className="text-3xl font-semibold mb-4"
