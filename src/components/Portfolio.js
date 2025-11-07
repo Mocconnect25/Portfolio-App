@@ -144,25 +144,45 @@ function Portfolio() {
       <section id="product" className="py-5" style={{ backgroundColor: "#f8f9fa" }}>
         <div className="container">
           <h2
-            className="text-3xl font-semibold mb-4"
-            style={{
-              color: "#1f6ea7",
-              textAlign: "center",
-              textDecoration: "none",
-              borderBottom: "none",
-              boxShadow: "none",
-              display: "block"
-            }}
+            className="text-3xl font-semibold mb-4 text-center"
+            style={{ color: "#1f6ea7" }}
           >
             What We&apos;re Building
           </h2>
+      
           <p className="lead text-center mx-auto" style={{ maxWidth: 800 }}>
-            MoC Connect is a real-time communication and task-sharing app designed for local supermarkets and kirana stores.
-            Vendors can list grocery items, share prices, and receive customer orders directly through chat. Customers can send
-            lists, view prices, and coordinate pickups seamlessly — all in one app.
+            MoC Connect is a real-time communication and task-sharing app for local
+            supermarkets and kirana stores. Vendors list items with prices and receive
+            customer lists directly via chat. Customers review prices, send lists, and
+            coordinate pickups — all in one app.
           </p>
+      
+          <div className="text-center mt-6">
+            <p className="mb-3 mx-auto" style={{ maxWidth: 800 }}>
+              Want to see how it works? View our Product UI with real screens and the
+              end-to-end workflow used by customers and vendors.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1vVJH9b0DuarHxTQ2ZZ1wgwHFteeGoOBv/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View the MoC Connect Product UI PDF"
+              className="inline-block"
+              style={{
+                backgroundColor: "#1f6ea7",
+                color: "#ffffff",
+                padding: "10px 20px",
+                borderRadius: 8,
+                textDecoration: "none",
+                fontWeight: 600
+              }}
+            >
+              📄 View Product UI (PDF)
+            </a>            
+          </div>
         </div>
       </section>
+
 
 
 
