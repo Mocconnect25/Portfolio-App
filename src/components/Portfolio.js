@@ -97,47 +97,49 @@ function Portfolio() {
 
 
       {/* About Us */}
-      <section id="about" className="container py-5 text-center" style={{ backgroundColor: "#f8f9fa" }}>
-        <div className="row justify-content-center">
-          <h2
-            className="text-3xl font-semibold mb-4"
-            style={{
-              color: "#1f6ea7",
-              textAlign: "center",
-              textDecoration: "none",
-              borderBottom: "none",
-              boxShadow: "none",
-              display: "block"
-            }}
-          >
-            About Us
-          </h2>
-        </div>
-
-        <div className="row align-items-center">
-          {/* Text on the left */}
-          <div className="col-md-6">
-            <p>
-              MOC CONNECT PRIVATE LIMITED is building an innovative communication
-              platform combining chat-based messaging, one-to-one task sharing, and
-              grocery order communication for local vendors. Customers send lists
-              directly to shops, and vendors receive them instantly — no delivery or
-              online payment is required, keeping it simple and personal. Vendors can
-              also manage deliveries through their own partners. Customers get a
-              quick and transparent ordering experience, while vendors maintain
-              relationships and manage operations from one clean interface.
-            </p>
+      <section id="about" className="bg-light py-5">
+        <div className="container">
+          <div className="row justify-content-center">
+            <h2
+              className="text-3xl font-semibold mb-4"
+              style={{
+                color: "#1f6ea7",
+                textAlign: "center",
+                textDecoration: "none",
+                borderBottom: "none",
+                boxShadow: "none",
+                display: "block"
+              }}
+            >
+              About Us
+            </h2>
           </div>
-
-          {/* Image on the right */}
-          <div className="col-md-6">
-            <img
-              src="https://static.vecteezy.com/system/resources/previews/012/669/997/non_2x/illustration-people-communicate-with-each-other-the-concept-of-a-social-network-messenger-and-communication-with-each-other-vector.jpg"
-              alt="About"
-              className="img-fluid rounded shadow"
-            />
+  
+          <div className="row align-items-center">
+            {/* Text on the left */}
+            <div className="col-md-6">
+              <p className="lead">
+                MOC CONNECT PRIVATE LIMITED is building an innovative communication
+                platform combining chat-based messaging, one-to-one task sharing, and
+                grocery order communication for local vendors. Customers send lists
+                directly to shops, and vendors receive them instantly — no delivery or
+                online payment is required, keeping it simple and personal. Vendors can
+                also manage deliveries through their own partners. Customers get a
+                quick and transparent ordering experience, while vendors maintain
+                relationships and manage operations from one clean interface.
+              </p>
+            </div>
+  
+            {/* Image on the right */}
+            <div className="col-md-6">
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/012/669/997/non_2x/illustration-people-communicate-with-each-other-the-concept-of-a-social-network-messenger-and-communication-with-each-other-vector.jpg"
+                alt="About"
+                className="img-fluid rounded shadow"
+              />
+            </div>
           </div>
-        </div>
+        </div>           
       </section>
 
       {/* Product Overview */}
@@ -157,7 +159,7 @@ function Portfolio() {
             What We&apos;re Building
           </h2>
       
-          <p className="text-center mx-auto" style={{ maxWidth: 800 }}>
+          <p className="lead text-center mx-auto" style={{ maxWidth: 800 }}>
             MoC Connect is a real-time communication and task-sharing app for local
             supermarkets and kirana stores. Vendors list items with prices and receive
             customer lists directly via chat. Customers review prices, send lists, and
@@ -286,39 +288,41 @@ function Portfolio() {
 
 
       {/* Our Team */}
-      <section id="team" className="container py-5" style={{ backgroundColor: "#f8f9fa" }}>
-        <h2
-          className="text-3xl font-semibold mb-4"
-          style={{
-            color: "#1f6ea7",
-            textAlign: "center",
-            textDecoration: "none",
-            borderBottom: "none",
-            boxShadow: "none",
-            display: "block"
-          }}
-        >
-          Our Team
-        </h2>
-        <div className="row g-4 text-center">
-          {[ 
-            { Name:"Harika Gurazala",Desc:"Founder/Managing Director"},{Name:"Srinivas Gurazala",Desc:"Founder/Director"},{Name:"Pavan Kasiboina", Desc:"DevOps Engineer"}].map((role, index) => (
-            <div key={index} className="col-md-4">
-              <motion.div
-                className="card border-0 shadow-sm p-3"
-                whileHover={{ scale: 1.05 }}
-              >
-                <img
-                  src={USerImag} style={{ height: '60px' }}
-                  className="rounded-circle mx-auto d-block mb-3"
-                  alt={'UserImage'}
-                />
-                <h5 className="fw-bold textcolour"> {role.Name}</h5>
-                <p>{role.Desc}</p>
-              </motion.div>
+      <section id="team" className="bg-light py-5">
+        <div className="container">
+            <h2
+              className="text-3xl font-semibold mb-4"
+              style={{
+                color: "#1f6ea7",
+                textAlign: "center",
+                textDecoration: "none",
+                borderBottom: "none",
+                boxShadow: "none",
+                display: "block"
+              }}
+            >
+              Our Team
+            </h2>
+            <div className="row g-4 text-center">
+              {[ 
+                { Name:"Harika Gurazala",Desc:"Founder/Managing Director"},{Name:"Srinivas Gurazala",Desc:"Founder/Director"},{Name:"Pavan Kasiboina", Desc:"DevOps Engineer"}].map((role, index) => (
+                <div key={index} className="col-md-4">
+                  <motion.div
+                    className="card border-0 shadow-sm p-3"
+                    whileHover={{ scale: 1.05 }}
+                  >
+                    <img
+                      src={USerImag} style={{ height: '60px' }}
+                      className="rounded-circle mx-auto d-block mb-3"
+                      alt={'UserImage'}
+                    />
+                    <h5 className="fw-bold textcolour"> {role.Name}</h5>
+                    <p>{role.Desc}</p>
+                  </motion.div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>      
       </section>
 
       
