@@ -181,7 +181,7 @@ function Portfolio() {
                 </h5>
                 <p style={{ fontSize: "0.98rem" }}>
                   Many small supermarkets and kirana stores in Tier 2 &amp; Tier 3
-                  cities still depend on phone calls and scattered WhatsApp messages
+                  cities of India still depend on phone calls and scattered WhatsApp messages
                   to manage daily orders. This leads to miscommunication, missed
                   items, no clear visibility of prices, and wasted time for both
                   customers and shop owners.
@@ -201,7 +201,7 @@ function Portfolio() {
                   🎯 Who We Serve
                 </h5>
                 <p style={{ fontSize: "0.98rem" }}>
-                  Local grocery shop owners, supermarkets, and kirana stores who want
+                  Local grocery shop owners, supermarkets, and kirana stores in India who want
                   a simple digital way to manage customer lists and prices — and
                   everyday customers who prefer to share a list, see prices in
                   advance, and pick up packed items without waiting. MOC Connect is
