@@ -180,11 +180,8 @@ function Portfolio() {
                   🚩 The Problem We&apos;re Solving
                 </h5>
                 <p style={{ fontSize: "0.98rem" }}>
-                  Many small supermarkets and kirana stores in Tier 2 &amp; Tier 3
-                  cities of India still depend on phone calls and scattered WhatsApp messages
-                  to manage daily orders. This leads to miscommunication, missed
-                  items, no clear visibility of prices, and wasted time for both
-                  customers and shop owners.
+                  Many small supermarkets and kirana stores in Tier 2 and Tier 3 cities in India still rely on phone calls and scattered WhatsApp messages to manage daily orders. 
+                  This leads to miscommunication, missed items, no clear visibility of prices, and wasted time for both customers and shop owners.
                 </p>
               </div>
             </div>
@@ -201,13 +198,12 @@ function Portfolio() {
                   🎯 Who We Serve
                 </h5>
                 <p style={{ fontSize: "0.98rem" }}>
-                  Local grocery shop owners, supermarkets, and kirana stores in India who want
-                  a simple digital way to manage customer lists and prices — and
-                  everyday customers who prefer to share a list, see prices in
-                  advance, and pick up packed items without waiting. MOC Connect is
-                  built especially for these vendors and customers in Tier 2 &amp;
-                  Tier 3 Indian cities.
+                  Local grocery shop owners, supermarkets, and kirana stores in India who want a simple digital way to manage customer lists and prices — and 
+                  everyday customers who prefer to share a list, see prices in advance, and pick up packed items without waiting.
                 </p>
+                <p style ={{fontSize: "0.98rem"}}>
+                    MOC Connect is built especially for these vendors and customers in Tier 2 and Tier 3 Indian cities.
+                </p>      
               </div>
             </div>
           </div>
