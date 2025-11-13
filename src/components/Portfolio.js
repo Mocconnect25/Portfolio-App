@@ -143,12 +143,18 @@ function Portfolio() {
       </section>
 
       {/* Product Overview */}
-      <section id="product" className="py-5" style={{ backgroundColor: "#f8f9fa" }}>
+     <section id="product" className="py-5">
         <div className="container">
-          {/* Heading + main description */}
           <h2
-            className="text-3xl font-semibold mb-4 text-center"
-            style={{ color: "#1f6ea7" }}
+            className="text-3xl font-semibold mb-4"
+            style={{
+              color: "#1f6ea7",
+              textAlign: "center",
+              textDecoration: "none",
+              borderBottom: "none",
+              boxShadow: "none",
+              display: "block"
+            }}
           >
             What We&apos;re Building
           </h2>
@@ -428,7 +434,7 @@ function Portfolio() {
               href="https://www.linkedin.com/company/moc-connect-pvt-ltd/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#FFFFF", textDecoration: "none", fontWeight: 600 }}
+              style={{ color: "#6c757d", textDecoration: "none", fontWeight: 600 }}
             >
               🌐 Follow MOC Connect Private Limited on LinkedIn
             </a>
