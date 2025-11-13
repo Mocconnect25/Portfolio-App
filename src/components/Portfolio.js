@@ -143,58 +143,76 @@ function Portfolio() {
       </section>
 
       {/* Product Overview */}
-       <section id="product" className="py-5" >
+      <section id="product" className="py-5" style={{ backgroundColor: "#f8f9fa" }}>
         <div className="container">
+          {/* Heading + main description */}
           <h2
-            className="text-3xl font-semibold mb-4"
-            style={{
-              color: "#1f6ea7",
-              textAlign: "center",
-              textDecoration: "none",
-              borderBottom: "none",
-              boxShadow: "none",
-              display: "block"
-            }}
+            className="text-3xl font-semibold mb-4 text-center"
+            style={{ color: "#1f6ea7" }}
           >
             What We&apos;re Building
           </h2>
       
           <p className="lead text-center mx-auto" style={{ maxWidth: 800 }}>
-            MOC Connect is a real-time communication and task-sharing app for local
+            MoC Connect is a real-time communication and task-sharing app for local
             supermarkets and kirana stores. Vendors list items with prices and receive
             customer lists directly via chat. Customers review prices, send lists, and
             coordinate pickups — all in one app.
           </p>
-              {/* Problem + Target audience block */}
-         <div className="text-center mt-4 mx-auto" style={{ maxWidth: 800 }}>
-            <h5 className="font-semibold mb-2" style={{ color: "#1f6ea7" }}>
-              The Problem We&apos;re Solving
-           </h5>
-           <p>
-             Many small supermarkets and kirana stores in Tier 2 &amp; Tier 3 cities of india 
-             still depend on phone calls and scattered WhatsApp messages to manage
-             daily orders. This leads to miscommunication, missed items, no clear
-             visibility of prices, and wasted time for both customers and shop
-             owners.
-          </p>
-
-          <h5 className="font-semibold mt-4 mb-2" style={{ color: "#1f6ea7" }}>
-            Our Target Audience
-         </h5>
-        <p>
-           Local grocery shop owners, supermarkets, and kirana stores who want a
-           simple digital way to manage customer lists and prices — and everyday
-           customers who prefer to share a list, see prices in advance, and pick up
-           their packed items without waiting. MOC Connect is built especially for
-           these vendors and customers in Tier 2 &amp; Tier 3 Indian cities.
-        </p>
-       </div>
       
-          <div className="text-center mt-6">
-            <p className="mb-3 mx-auto" style={{ maxWidth: 800 }}>
+          {/* Problem & Target Audience cards */}
+          <div className="row justify-content-center mt-5">
+            <div className="col-md-5 mb-4">
+              <div
+                className="h-100 p-4 shadow-sm"
+                style={{
+                  borderRadius: "12px",
+                  backgroundColor: "#ffffff"
+                }}
+              >
+                <h5 className="mb-3" style={{ color: "#1f6ea7" }}>
+                  🚩 The Problem We&apos;re Solving
+                </h5>
+                <p style={{ fontSize: "0.98rem" }}>
+                  Many small supermarkets and kirana stores in Tier 2 &amp; Tier 3
+                  cities still depend on phone calls and scattered WhatsApp messages
+                  to manage daily orders. This leads to miscommunication, missed
+                  items, no clear visibility of prices, and wasted time for both
+                  customers and shop owners.
+                </p>
+              </div>
+            </div>
+      
+            <div className="col-md-5 mb-4">
+              <div
+                className="h-100 p-4 shadow-sm"
+                style={{
+                  borderRadius: "12px",
+                  backgroundColor: "#ffffff"
+                }}
+              >
+                <h5 className="mb-3" style={{ color: "#1f6ea7" }}>
+                  🎯 Who We Serve
+                </h5>
+                <p style={{ fontSize: "0.98rem" }}>
+                  Local grocery shop owners, supermarkets, and kirana stores who want
+                  a simple digital way to manage customer lists and prices — and
+                  everyday customers who prefer to share a list, see prices in
+                  advance, and pick up packed items without waiting. MoC Connect is
+                  built especially for these vendors and customers in Tier 2 &amp;
+                  Tier 3 Indian cities.
+                </p>
+              </div>
+            </div>
+          </div>
+      
+          {/* PDF button */}
+          <div className="text-center mt-4">
+            <p className="mb-3" style={{ maxWidth: 800, margin: "0 auto" }}>
               Want to see how it works? View our Product UI with real screens and the
               end-to-end workflow used by customers and vendors.
             </p>
+      
             <a
               href="https://drive.google.com/file/d/1vVJH9b0DuarHxTQ2ZZ1wgwHFteeGoOBv/view?usp=sharing"
               target="_blank"
@@ -203,18 +221,23 @@ function Portfolio() {
               className="inline-block"
               style={{
                 backgroundColor: "#1f6ea7",
-                color: "#ffffff",
-                padding: "10px 20px",
-                borderRadius: 8,
+                color: "white",
+                padding: "10px 25px",
+                borderRadius: "8px",
                 textDecoration: "none",
                 fontWeight: 600
               }}
             >
               📄 View Product UI (PDF)
-            </a>            
+            </a>
+      
+            <div className="text-sm text-gray-600 mt-2">
+              Public preview • No sign-in required
+            </div>
           </div>
         </div>
       </section>
+
 
 
 
@@ -338,13 +361,13 @@ function Portfolio() {
             {
               Name: "Srinivas Gurazala",
               Desc: "Founder/Director",
-              MutedDesc: "Full Stack Developer leading architecture and backend for MOC Connect..",
+              MutedDesc: "Full Stack Developer leading architecture  for MOC Connect..",
               LinkedIn: "https://www.linkedin.com/in/srinivas-gurazala-a30094212/"
             },
             {
               Name: "Pavan Kasiboina",
               Desc: "DevOps Engineer",
-              MutedDesc: "Supports MOC Connect&apos;s GCP, Kubernetes, and CI/CD infrastructure.",
+              MutedDesc: "Supports MOC Connect's GCP, Kubernetes, and CI/CD infrastructure.",
               LinkedIn: "https://www.linkedin.com/in/pavan-kasiboina-91aab5391/"
             }
           ].map((role, index) => (
@@ -381,35 +404,35 @@ function Portfolio() {
       {/* Contact Us */}
       <section id="contact" className="py-5" style={{ backgroundColor: "#1f6ea7" }}>
         <div className="container text-white">
-          <h2
-            className="text-3xl font-semibold mb-4"
-            style={{
-              color: "white",
-              textAlign: "center",
-              textDecoration: "none",
-              borderBottom: "none",
-              boxShadow: "none",
-              display: "block"
-            }}
-          >
-            Contact Us
-          </h2>
-          <div className="text-center mb-1">
-            Have questions or want to collaborate? We’d love to hear from you.
+            <h2
+              className="text-3xl font-semibold mb-4"
+              style={{
+                color: "white",
+                textAlign: "center",
+                textDecoration: "none",
+                borderBottom: "none",
+                boxShadow: "none",
+                display: "block"
+              }}
+            >
+              Contact Us
+            </h2>
+            <div className="text-center mb-1">
+              Have questions or want to collaborate? We’d love to hear from you.
+            </div>
+            <div className="text-center mb-1">
+              info@mocconnect.in
+            </div>
+            <div className="text-center mb-1">
+            <a
+              href="https://www.linkedin.com/company/moc-connect-pvt-ltd/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#FFFFF", textDecoration: "none", fontWeight: 600 }}
+            >
+              🌐 Follow MOC Connect Private Limited on LinkedIn
+            </a>
           </div>
-          <div className="text-center mb-1">
-            info@mocconnect.in
-          </div>
-          <p className="mt-3">
-          <a
-            href="https://www.linkedin.com/company/moc-connect-pvt-ltd/"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: "#1f6ea7", textDecoration: "none", fontWeight: 600 }}
-          >
-            🌐 Follow MOC Connect Private Limited on LinkedIn
-          </a>
-        </p>
         </div>
       </section>
 
