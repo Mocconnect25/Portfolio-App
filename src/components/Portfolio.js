@@ -329,7 +329,6 @@ function Portfolio() {
             </h2>
             <div className="row g-4 text-center">
               {[ 
-                {[
             {
               Name: "Harika Gurazala",
               Desc: "Founder/Managing Director",
