@@ -367,7 +367,7 @@ function Portfolio() {
             {
               Name: "Srinivas Gurazala",
               Desc: "Founder/Director",
-              MutedDesc: "Full Stack Developer leading architecture  for MOC Connect..",
+              MutedDesc: "Full Stack Developer leading architecture  for MOC Connect.",
               LinkedIn: "https://www.linkedin.com/in/srinivas-gurazala-a30094212/"
             },
             {
@@ -434,7 +434,11 @@ function Portfolio() {
               href="https://www.linkedin.com/company/moc-connect-pvt-ltd/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ color: "#6c757d", textDecoration: "none", fontWeight: 600 }}
+              style={{
+                  color: "#FFFFFF",
+                  textDecoration: "underline",
+                  fontWeight: 600
+                }}
             >
               🌐 Follow MOC Connect Private Limited on LinkedIn
             </a>
