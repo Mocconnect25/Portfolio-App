@@ -160,7 +160,7 @@ function Portfolio() {
           </h2>
       
           <p className="lead text-center mx-auto" style={{ maxWidth: 800 }}>
-            MoC Connect is a real-time communication and task-sharing app for local
+            MOC Connect is a real-time communication and task-sharing app for local
             supermarkets and kirana stores. Vendors list items with prices and receive
             customer lists directly via chat. Customers review prices, send lists, and
             coordinate pickups — all in one app.
@@ -204,7 +204,7 @@ function Portfolio() {
                   Local grocery shop owners, supermarkets, and kirana stores who want
                   a simple digital way to manage customer lists and prices — and
                   everyday customers who prefer to share a list, see prices in
-                  advance, and pick up packed items without waiting. MoC Connect is
+                  advance, and pick up packed items without waiting. MOC Connect is
                   built especially for these vendors and customers in Tier 2 &amp;
                   Tier 3 Indian cities.
                 </p>
