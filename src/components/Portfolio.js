@@ -160,11 +160,35 @@ function Portfolio() {
           </h2>
       
           <p className="lead text-center mx-auto" style={{ maxWidth: 800 }}>
-            MoC Connect is a real-time communication and task-sharing app for local
+            MOC Connect is a real-time communication and task-sharing app for local
             supermarkets and kirana stores. Vendors list items with prices and receive
             customer lists directly via chat. Customers review prices, send lists, and
             coordinate pickups — all in one app.
           </p>
+              {/* Problem + Target audience block */}
+         <div className="text-center mt-4 mx-auto" style={{ maxWidth: 800 }}>
+            <h5 className="font-semibold mb-2" style={{ color: "#1f6ea7" }}>
+              The Problem We&apos;re Solving
+           </h5>
+           <p>
+             Many small supermarkets and kirana stores in Tier 2 &amp; Tier 3 cities of india 
+             still depend on phone calls and scattered WhatsApp messages to manage
+             daily orders. This leads to miscommunication, missed items, no clear
+             visibility of prices, and wasted time for both customers and shop
+             owners.
+          </p>
+
+          <h5 className="font-semibold mt-4 mb-2" style={{ color: "#1f6ea7" }}>
+            Our Target Audience
+         </h5>
+        <p>
+           Local grocery shop owners, supermarkets, and kirana stores who want a
+           simple digital way to manage customer lists and prices — and everyday
+           customers who prefer to share a list, see prices in advance, and pick up
+           their packed items without waiting. MOC Connect is built especially for
+           these vendors and customers in Tier 2 &amp; Tier 3 Indian cities.
+        </p>
+       </div>
       
           <div className="text-center mt-6">
             <p className="mb-3 mx-auto" style={{ maxWidth: 800 }}>
@@ -305,7 +329,26 @@ function Portfolio() {
             </h2>
             <div className="row g-4 text-center">
               {[ 
-                { Name:"Harika Gurazala",Desc:"Founder/Managing Director"},{Name:"Srinivas Gurazala",Desc:"Founder/Director"},{Name:"Pavan Kasiboina", Desc:"DevOps Engineer"}].map((role, index) => (
+                {[
+            {
+              Name: "Harika Gurazala",
+              Desc: "Founder/Managing Director",
+              MutedDesc: "Leads product vision and operations for MOC Connect.",
+              LinkedIn: "https://www.linkedin.com/in/harika-gurazala-425546186/"
+            },
+            {
+              Name: "Srinivas Gurazala",
+              Desc: "Founder/Director",
+              MutedDesc: "Full Stack Developer leading architecture and backend for MOC Connect..",
+              LinkedIn: "https://www.linkedin.com/in/srinivas-gurazala-a30094212/"
+            },
+            {
+              Name: "Pavan Kasiboina",
+              Desc: "DevOps Engineer",
+              MutedDesc: "Supports MOC Connect&apos;s GCP, Kubernetes, and CI/CD infrastructure.",
+              LinkedIn: "https://www.linkedin.com/in/pavan-kasiboina-91aab5391/"
+            }
+          ].map((role, index) => (
                 <div key={index} className="col-md-4">
                   <motion.div
                     className="card border-0 shadow-sm p-3"
@@ -318,6 +361,15 @@ function Portfolio() {
                     />
                     <h5 className="fw-bold textcolour"> {role.Name}</h5>
                     <p>{role.Desc}</p>
+                    <p className="text-muted">{role.MutedDesc}</p>
+                    <a
+                      href={role.LinkedIn}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: "#1f6ea7", textDecoration: "none", fontWeight: 500 }}
+                    >
+                      🔗 View LinkedIn Profile
+                    </a>
                   </motion.div>
                 </div>
               ))}
@@ -349,6 +401,16 @@ function Portfolio() {
           <div className="text-center mb-1">
             info@mocconnect.in
           </div>
+          <p className="mt-3">
+          <a
+            href="https://www.linkedin.com/company/moc-connect-pvt-ltd/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#1f6ea7", textDecoration: "none", fontWeight: 600 }}
+          >
+            🌐 Follow MOC Connect Private Limited on LinkedIn
+          </a>
+        </p>
         </div>
       </section>
 
