@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="MOC logo: an outline chat bubble holding three growing dots">
+  <title>MOC. Mode of Communication</title>
+  <defs>
+    <linearGradient id="k3-tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3fb0f0"/><stop offset="1" stop-color="#1558a0"/></linearGradient>
+    <linearGradient id="k3-warm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd36e"/><stop offset="1" stop-color="#ff7e5f"/></linearGradient>
+    <linearGradient id="k3-blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3fb0f0"/><stop offset="1" stop-color="#1558a0"/></linearGradient>
+  </defs>
+  <path d="M68 30 H132 A44 44 0 0 1 176 74 V102 A44 44 0 0 1 132 146 L138 146 L158 176 L110 146 H68 A44 44 0 0 1 24 102 V74 A44 44 0 0 1 68 30 Z" fill="none" stroke="url(#k3-blue)" stroke-width="15" stroke-linejoin="round"/>
+  <circle cx="64" cy="90" r="8" fill="url(#k3-blue)"/>
+  <circle cx="92" cy="90" r="12" fill="url(#k3-blue)"/>
+  <circle cx="130" cy="90" r="17" fill="url(#k3-warm)"/>
+</svg>

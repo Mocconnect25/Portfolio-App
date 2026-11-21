@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="MOC logo: three dots that grow in size, like a message being typed">
+  <title>MOC. Mode of Communication</title>
+  <defs>
+    <linearGradient id="k2-tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3fb0f0"/><stop offset="1" stop-color="#1558a0"/></linearGradient>
+    <linearGradient id="k2-warm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd36e"/><stop offset="1" stop-color="#ff7e5f"/></linearGradient>
+    <linearGradient id="k2-blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3fb0f0"/><stop offset="1" stop-color="#1558a0"/></linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="46" fill="url(#k2-tile)"/>
+  <circle cx="46" cy="122" r="11" fill="#ffffff"/>
+  <circle cx="86" cy="108" r="19" fill="#ffffff"/>
+  <circle cx="140" cy="86" r="31" fill="url(#k2-warm)"/>
+</svg>

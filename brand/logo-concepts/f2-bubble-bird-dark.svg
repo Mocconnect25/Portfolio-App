@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="MOC logo: a folded paper bird inside a round chat bubble">
+  <title>MOC. Mode of Communication</title>
+  <defs>
+    <linearGradient id="f2-g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58b8f5"/><stop offset="1" stop-color="#1f6ea7"/></linearGradient>
+    <linearGradient id="f2-g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b8fd0"/><stop offset="1" stop-color="#0f4a78"/></linearGradient>
+    <linearGradient id="f2-g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14507d"/><stop offset="1" stop-color="#0a2740"/></linearGradient>
+    <linearGradient id="f2-warm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd36e"/><stop offset="1" stop-color="#ff9a76"/></linearGradient>
+    <linearGradient id="f2-bub" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a2740"/><stop offset="0.55" stop-color="#14507d"/><stop offset="1" stop-color="#2b8fd0"/></linearGradient>
+  </defs>
+  <path d="M80.2 181.7 A88 88 0 1 0 22.3 137.3 L13 194 Z" fill="url(#f2-bub)" stroke-linejoin="round"/>
+  <g transform="translate(26.5 21.8) scale(0.7)"><g stroke-linejoin="round">
+    <polygon points="22,62 118,92 76,116" fill="#ffffff"/>
+    <polygon points="76,116 118,92 124,150" fill="#cdeafc"/>
+    <polygon points="118,92 166,80 124,150" fill="#8ccdf5"/>
+    <polygon points="166,80 188,100 156,108" fill="url(#f2-warm)"/>
+    <polygon points="76,116 124,150 40,150" fill="#a9dafa"/>
+    <circle cx="160" cy="92" r="3.2" fill="#0a2740"/>
+  </g></g>
+</svg>

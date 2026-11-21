@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="MOC app icon: the folded-paper bird">
+  <title>MOC. Mode of Communication</title>
+  <defs>
+    <linearGradient id="e1t-g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58b8f5"/><stop offset="1" stop-color="#1f6ea7"/></linearGradient>
+    <linearGradient id="e1t-g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b8fd0"/><stop offset="1" stop-color="#0f4a78"/></linearGradient>
+    <linearGradient id="e1t-g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14507d"/><stop offset="1" stop-color="#0a2740"/></linearGradient>
+    <linearGradient id="e1t-warm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd36e"/><stop offset="1" stop-color="#ff9a76"/></linearGradient>
+    <linearGradient id="e1t-tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a2740"/><stop offset="0.55" stop-color="#14507d"/><stop offset="1" stop-color="#2b8fd0"/></linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="46" fill="#ffffff"/>
+  <g transform="translate(18 24) scale(0.82)"><g stroke-linejoin="round">
+    <polygon points="22,62 118,92 76,116" fill="url(#e1t-g1)"/>
+    <polygon points="76,116 118,92 124,150" fill="url(#e1t-g2)"/>
+    <polygon points="118,92 166,80 124,150" fill="url(#e1t-g3)"/>
+    <polygon points="166,80 188,100 156,108" fill="url(#e1t-warm)"/>
+    <polygon points="76,116 124,150 40,150" fill="url(#e1t-g3)" opacity="0.85"/>
+    <circle cx="160" cy="92" r="3.2" fill="#ffffff"/>
+  </g></g>
+</svg>

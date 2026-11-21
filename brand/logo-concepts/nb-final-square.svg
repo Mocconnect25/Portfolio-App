@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="MOC logo: a bird in flight carrying a letter, inside a chat bubble">
+  <title>MOC. Mode of Communication</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a2740"/><stop offset="0.5" stop-color="#14507d"/><stop offset="1" stop-color="#2b8fd0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <path d="M580.6 798.8 A330 330 0 1 1 803.4 630.9 L777.0 854.4 Z" fill="none" stroke="#ffffff" stroke-width="38" stroke-linejoin="round" stroke-linecap="round"/>
+  <g transform="translate(249.6 304.0) scale(1.08)" fill="none" stroke="#ffffff" stroke-width="20" stroke-linejoin="round" stroke-linecap="round">
+    
+  <!-- body: head, beak, chest, belly and tail (the back is hidden under the wings) -->
+  <path d="M232 150
+           C228 100 256 64 298 64
+           C326 64 340 84 334 100
+           L364 112 L330 124
+           C332 180 300 238 238 262
+           C196 276 140 278 84 302
+           C112 262 150 236 190 204"/>
+  <!-- upper wing: one long swept leaf -->
+  <path d="M232 150
+           C214 76 136 28 30 24
+           C54 62 98 104 150 128
+           C180 142 206 150 226 158 Z"/>
+  <!-- lower wing: a second, shorter leaf beneath it -->
+  <path d="M222 176
+           C176 150 108 132 44 138
+           C76 178 140 204 190 204
+           C206 196 216 188 222 176 Z"/>
+  <!-- the eye -->
+  <circle cx="304" cy="94" r="4.5" fill="#ffffff" stroke="none"/>
+
+    
+  <g transform="translate(360 120) rotate(-12)">
+    <rect x="0" y="0" width="96" height="66" rx="12"/>
+    <path d="M6 8 L48 40 L90 8"/>
+  </g>
+
+  </g>
+</svg>

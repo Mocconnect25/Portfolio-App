@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MOC bird colours</title>
+<style>
+  body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; color: #1d2733; background: #f3f7fb; }
+  header { padding: 28px 32px 8px; }
+  h1 { margin: 0 0 4px; font-size: 1.6rem; }
+  header p { margin: 0; color: #5b6875; max-width: 62em; }
+  .grid { display: flex; flex-wrap: wrap; gap: 20px; padding: 20px 32px 40px; }
+  .card { flex: 1 1 260px; background: #fff; border: 1px solid #dfe7ee; border-radius: 20px; padding: 20px; box-sizing: border-box; }
+  .card h2 { margin: 0 0 4px; font-size: 1.05rem; }
+  .idea { margin: 0 0 14px; color: #5b6875; font-size: 0.88rem; line-height: 1.5; }
+  .stage { display: flex; align-items: center; justify-content: center; border-radius: 14px; padding: 16px; margin-bottom: 12px; }
+  .light { background: #fff; border: 1px solid #dfe7ee; }
+  .home { background: linear-gradient(160deg, #cfd8e3, #aebccc); }
+  .stage img.big { width: 220px; height: 220px; }
+  .row { display: flex; align-items: flex-end; justify-content: center; gap: 18px; }
+  .row figure { margin: 0; text-align: center; font-size: 0.75rem; color: #4b5a6b; }
+  .row img { display: block; margin: 0 auto 4px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Your bird, in new colours</h1>
+  <p>The same icon, with the bird recoloured. The logo's own shading is kept (which part is darker or lighter), so the layered wing still shows.</p>
+</header>
+<div class="grid">
+  <section class="card">
+    <h2>Original blue</h2>
+    <p class="idea">For comparison: the bird in its current blue.</p>
+    <div class="stage light"><img class="big" src="bubble-bird-blue.png" alt="Original blue bird" /></div>
+    <div class="stage home"><div class="row"><figure><img src="bubble-bird-blue.png" width="72" height="72" alt="" />72px</figure><figure><img src="bubble-bird-blue.png" width="32" height="32" alt="" />32px</figure></div></div>
+  </section>
+  <section class="card">
+    <h2>1. Warm bird</h2>
+    <p class="idea">Coral to gold, the app's warm colours. The strongest contrast on blue, and it no longer looks like a blue-bird logo.</p>
+    <div class="stage light"><img class="big" src="bubble-bird-warm-bird.png" alt="Warm bird" /></div>
+    <div class="stage home"><div class="row"><figure><img src="bubble-bird-warm-bird.png" width="72" height="72" alt="" />72px</figure><figure><img src="bubble-bird-warm-bird.png" width="32" height="32" alt="" />32px</figure></div></div>
+  </section>
+  <section class="card">
+    <h2>2. White bird</h2>
+    <p class="idea">A white bird with icy shading. Calm and clean, like the white bubble around it.</p>
+    <div class="stage light"><img class="big" src="bubble-bird-white-bird.png" alt="White bird" /></div>
+    <div class="stage home"><div class="row"><figure><img src="bubble-bird-white-bird.png" width="72" height="72" alt="" />72px</figure><figure><img src="bubble-bird-white-bird.png" width="32" height="32" alt="" />32px</figure></div></div>
+  </section>
+  <section class="card">
+    <h2>3. Two-tone bird</h2>
+    <p class="idea">The lighter parts of the bird in white, the darker parts in warm coral and gold. Uses all the app's colours in one bird.</p>
+    <div class="stage light"><img class="big" src="bubble-bird-twotone-bird.png" alt="Two-tone bird" /></div>
+    <div class="stage home"><div class="row"><figure><img src="bubble-bird-twotone-bird.png" width="72" height="72" alt="" />72px</figure><figure><img src="bubble-bird-twotone-bird.png" width="32" height="32" alt="" />32px</figure></div></div>
+  </section>
+</div>
+</body>
+</html>

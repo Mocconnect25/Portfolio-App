@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="MOC logo: two overlapping chat bubbles, a conversation">
+  <title>MOC. Mode of Communication</title>
+  <defs>
+    <linearGradient id="j2-blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3fb0f0"/><stop offset="1" stop-color="#1558a0"/></linearGradient>
+    <linearGradient id="j2-deep" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f6ea7"/><stop offset="1" stop-color="#0a2f52"/></linearGradient>
+    <linearGradient id="j2-warm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd36e"/><stop offset="1" stop-color="#ff7e5f"/></linearGradient>
+  </defs>
+  <path d="M46 22 H92 A36 36 0 0 1 128 58 V80 A36 36 0 0 1 92 116 L82 116 L50 116 L32 148 L44 116 H46 A36 36 0 0 1 10 80 V58 A36 36 0 0 1 46 22 Z" fill="url(#j2-deep)" stroke-linejoin="round"/>
+  <path d="M108 66 H154 A36 36 0 0 1 190 102 V124 A36 36 0 0 1 154 160 L150 160 L168 192 L118 160 H108 A36 36 0 0 1 72 124 V102 A36 36 0 0 1 108 66 Z" fill="url(#j2-warm)" stroke="#ffffff" stroke-width="7" stroke-linejoin="round" paint-order="stroke"/>
+</svg>

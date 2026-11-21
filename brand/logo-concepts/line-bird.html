@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MOC line-art bird</title>
+<style>
+  body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; color: #1d2733; background: #f3f7fb; }
+  header { padding: 28px 32px 8px; }
+  h1 { margin: 0 0 4px; font-size: 1.6rem; }
+  header p { margin: 0; color: #5b6875; max-width: 62em; }
+  .grid { display: flex; flex-wrap: wrap; gap: 20px; padding: 20px 32px 40px; }
+  .card { flex: 1 1 260px; background: #fff; border: 1px solid #dfe7ee; border-radius: 20px; padding: 20px; box-sizing: border-box; }
+  .card h2 { margin: 0 0 4px; font-size: 1.05rem; }
+  .idea { margin: 0 0 14px; color: #5b6875; font-size: 0.88rem; line-height: 1.5; }
+  .stage { display: flex; align-items: center; justify-content: center; border-radius: 14px; padding: 16px; margin-bottom: 12px; }
+  .light { background: #fff; border: 1px solid #dfe7ee; }
+  .home { background: linear-gradient(160deg, #cfd8e3, #aebccc); }
+  .stage img.big { width: 260px; height: 260px; }
+  .row { display: flex; align-items: flex-end; justify-content: center; gap: 18px; }
+  .row figure { margin: 0; text-align: center; font-size: 0.75rem; color: #4b5a6b; }
+  .row img { display: block; margin: 0 auto 4px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Your bird, drawn as a line</h1>
+  <p>The bird has no fill of its own: it takes the background colour, inside and outside the bubble. Only the white outline shows. The wing gap, the eye and the scroll are drawn as single clean lines.</p>
+</header>
+<div class="grid">
+  <section class="card">
+    <h2>1. Thin line</h2>
+    <p class="idea">The finest, most elegant outline. Beautiful large; fades at small sizes.</p>
+    <div class="stage light"><img class="big" src="line-bird-thin.png" alt="Thin line" /></div>
+    <div class="stage home"><div class="row"><figure><img src="line-bird-thin.png" width="96" height="96" alt="" />96px</figure><figure><img src="line-bird-thin.png" width="60" height="60" alt="" />60px</figure><figure><img src="line-bird-thin.png" width="32" height="32" alt="" />32px</figure><figure><img src="line-bird-thin.png" width="16" height="16" alt="" />16px</figure></div></div>
+  </section>
+  <section class="card">
+    <h2>2. Medium line</h2>
+    <p class="idea">A balanced line. Reads well large and at 32px.</p>
+    <div class="stage light"><img class="big" src="line-bird-medium.png" alt="Medium line" /></div>
+    <div class="stage home"><div class="row"><figure><img src="line-bird-medium.png" width="96" height="96" alt="" />96px</figure><figure><img src="line-bird-medium.png" width="60" height="60" alt="" />60px</figure><figure><img src="line-bird-medium.png" width="32" height="32" alt="" />32px</figure><figure><img src="line-bird-medium.png" width="16" height="16" alt="" />16px</figure></div></div>
+  </section>
+  <section class="card">
+    <h2>3. Bold line</h2>
+    <p class="idea">The strongest line, with a thicker bubble to match. Best at small sizes.</p>
+    <div class="stage light"><img class="big" src="line-bird-bold.png" alt="Bold line" /></div>
+    <div class="stage home"><div class="row"><figure><img src="line-bird-bold.png" width="96" height="96" alt="" />96px</figure><figure><img src="line-bird-bold.png" width="60" height="60" alt="" />60px</figure><figure><img src="line-bird-bold.png" width="32" height="32" alt="" />32px</figure><figure><img src="line-bird-bold.png" width="16" height="16" alt="" />16px</figure></div></div>
+  </section>
+</div>
+</body>
+</html>

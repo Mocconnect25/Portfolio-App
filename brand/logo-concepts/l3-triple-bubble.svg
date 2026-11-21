@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="MOC logo: three speech drops arranged in a pinwheel">
+  <title>MOC. Mode of Communication</title>
+  <defs>
+    <linearGradient id="l3-blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3fb0f0"/><stop offset="1" stop-color="#1558a0"/></linearGradient>
+    <linearGradient id="l3-deep" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f6ea7"/><stop offset="1" stop-color="#0a2f52"/></linearGradient>
+    <linearGradient id="l3-warm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd36e"/><stop offset="1" stop-color="#ff7e5f"/></linearGradient>
+  </defs>
+  <g transform="translate(100 100) scale(1.12) translate(-100 -100)"><path d="M0 -32 L32 -32 L32 0 A32 32 0 0 1 0 32 A32 32 0 0 1 -32 0 A32 32 0 0 1 0 -32 Z" transform="translate(100.0 65.0) rotate(0)" fill="url(#l3-blue)" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" paint-order="stroke"/><path d="M0 -32 L32 -32 L32 0 A32 32 0 0 1 0 32 A32 32 0 0 1 -32 0 A32 32 0 0 1 0 -32 Z" transform="translate(130.3 117.5) rotate(120)" fill="url(#l3-deep)" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" paint-order="stroke"/><path d="M0 -32 L32 -32 L32 0 A32 32 0 0 1 0 32 A32 32 0 0 1 -32 0 A32 32 0 0 1 0 -32 Z" transform="translate(69.7 117.5) rotate(240)" fill="url(#l3-warm)" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" paint-order="stroke"/></g>
+</svg>

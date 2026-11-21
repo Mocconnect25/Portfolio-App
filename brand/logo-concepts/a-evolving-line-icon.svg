@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="MOC logo: a line that evolves from dots and dashes into a wave that forms an M, which broadcasts a signal">
+  <title>MOC. Mode of Communication</title>
+  <defs>
+    <linearGradient id="a-tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a2740"/><stop offset="0.55" stop-color="#14507d"/><stop offset="1" stop-color="#2b8fd0"/>
+    </linearGradient>
+    <linearGradient id="a-warm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd36e"/><stop offset="1" stop-color="#ff9a76"/>
+    </linearGradient>
+    <linearGradient id="a-blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3aa0e0"/><stop offset="1" stop-color="#1f6ea7"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="46" fill="url(#a-tile)"/>
+  <g transform="translate(0 14)">
+    <g fill="#ffffff" opacity="0.95">
+      <circle cx="16" cy="140" r="4.2"/><circle cx="29" cy="140" r="4.2"/><circle cx="42" cy="140" r="4.2"/>
+    </g>
+    <g stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.95">
+      <line x1="55" y1="140" x2="62" y2="140"/><line x1="71" y1="140" x2="84" y2="140"/>
+    </g>
+    <path d="M94 140 C104 140 106 62 118 62 C128 62 126 114 132 114 C138 114 136 62 146 62 C158 62 160 140 172 140"
+          fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="132" cy="44" r="6.5" fill="url(#a-warm)"/>
+    <path d="M119.7 35.4 A15 15 0 0 1 144.3 35.4" fill="none" stroke="url(#a-warm)" stroke-width="5" stroke-linecap="round" opacity="1"/><path d="M109.9 28.5 A27 27 0 0 1 154.1 28.5" fill="none" stroke="url(#a-warm)" stroke-width="5" stroke-linecap="round" opacity="0.8"/><path d="M100.1 21.6 A39 39 0 0 1 163.9 21.6" fill="none" stroke="url(#a-warm)" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  </g>
+</svg>

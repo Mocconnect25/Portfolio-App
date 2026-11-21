@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MOC bird in a circle</title>
+<style>
+  body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; color: #1d2733; background: #f3f7fb; }
+  header { padding: 28px 32px 8px; }
+  h1 { margin: 0 0 4px; font-size: 1.6rem; }
+  header p { margin: 0; color: #5b6875; max-width: 62em; }
+  .cur { display: flex; align-items: center; gap: 18px; background: #fff; border: 1px solid #dfe7ee; border-radius: 20px; padding: 14px 22px; margin: 14px 32px 0; }
+  .cur img { width: 84px; height: 84px; }
+  .cur p { margin: 0; color: #5b6875; font-size: 0.93rem; }
+  .grid { display: flex; flex-wrap: wrap; gap: 20px; padding: 20px 32px 40px; }
+  .card { flex: 1 1 300px; background: #fff; border: 1px solid #dfe7ee; border-radius: 20px; padding: 20px; box-sizing: border-box; }
+  .card h2 { margin: 0 0 4px; font-size: 1.1rem; }
+  .idea { margin: 0 0 14px; color: #5b6875; font-size: 0.9rem; line-height: 1.5; }
+  .stage { display: flex; align-items: center; justify-content: center; border-radius: 14px; padding: 18px; margin-bottom: 12px; }
+  .light { background: #fff; border: 1px solid #dfe7ee; }
+  .dark { background: #0b2c47; }
+  .stage img.big { width: 240px; height: 240px; }
+  .row { display: flex; align-items: flex-end; justify-content: center; gap: 20px; }
+  .row figure { margin: 0; text-align: center; font-size: 0.75rem; color: #8a96a2; }
+  .row img { display: block; margin: 0 auto 4px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Your bird, in a circle</h1>
+  <p>The real bird from your current logo, cut out exactly and turned white, on a circle filled with the app's colours. Two treatments (a solid white bird and a white outline) on two backgrounds.</p>
+</header>
+
+<div class="cur">
+  <img src="../original-logo/MOC_Logo192.png" alt="Current logo" />
+  <p><strong>Current logo</strong> for comparison.</p>
+</div>
+
+<div class="grid">
+  <section class="card">
+    <h2>1. Solid white bird, blue circle</h2>
+    <p class="idea">The bird as a white shape. The wing gaps, the eye and the scroll's spiral show the blue through. Bold and clear.</p>
+    <div class="stage light"><img class="big" src="bird-solid-blue.png" alt="Solid white bird, blue circle" /></div>
+    <div class="stage dark"><div class="row"><figure><img src="bird-solid-blue.png" width="72" height="72" alt="" />72px</figure><figure><img src="bird-solid-blue.png" width="32" height="32" alt="" />32px</figure><figure><img src="bird-solid-blue.png" width="16" height="16" alt="" />16px</figure></div></div>
+  </section>
+  <section class="card">
+    <h2>2. Solid white bird, all app colours</h2>
+    <p class="idea">The same bird on the blue-to-sky gradient with a warm coral glow, so the circle carries all the app's colours.</p>
+    <div class="stage light"><img class="big" src="bird-solid-allcolours.png" alt="Solid white bird, all colours" /></div>
+    <div class="stage dark"><div class="row"><figure><img src="bird-solid-allcolours.png" width="72" height="72" alt="" />72px</figure><figure><img src="bird-solid-allcolours.png" width="32" height="32" alt="" />32px</figure><figure><img src="bird-solid-allcolours.png" width="16" height="16" alt="" />16px</figure></div></div>
+  </section>
+  <section class="card">
+    <h2>3. White outline bird, blue circle</h2>
+    <p class="idea">Only the outline of the bird and its letter in white, drawn as a fine line. Lighter and more elegant, less bold.</p>
+    <div class="stage light"><img class="big" src="bird-outline-blue.png" alt="Outline bird, blue circle" /></div>
+    <div class="stage dark"><div class="row"><figure><img src="bird-outline-blue.png" width="72" height="72" alt="" />72px</figure><figure><img src="bird-outline-blue.png" width="32" height="32" alt="" />32px</figure><figure><img src="bird-outline-blue.png" width="16" height="16" alt="" />16px</figure></div></div>
+  </section>
+  <section class="card">
+    <h2>4. White outline bird, all app colours</h2>
+    <p class="idea">The outline on the blue-to-coral background.</p>
+    <div class="stage light"><img class="big" src="bird-outline-allcolours.png" alt="Outline bird, all colours" /></div>
+    <div class="stage dark"><div class="row"><figure><img src="bird-outline-allcolours.png" width="72" height="72" alt="" />72px</figure><figure><img src="bird-outline-allcolours.png" width="32" height="32" alt="" />32px</figure><figure><img src="bird-outline-allcolours.png" width="16" height="16" alt="" />16px</figure></div></div>
+  </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,239 @@
+/*
+ * A tidier look shared by every page: the header and menu, the title band, cards, buttons,
+ * documents and the footer. Loaded after site.css, so it refines what is there.
+ */
+.mc-page {
+  --mh-deep: #0b2c47;
+  --mh-blue: #1f6ea7;
+  --mh-sky: #3aa0e0;
+  --mh-warm-a: #ffd36e;
+  --mh-warm-b: #ff9a76;
+}
+
+/* Header: a light frosted bar that stays put */
+.mc-nav {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: saturate(160%) blur(10px);
+  border-bottom-color: rgba(223, 231, 238, 0.8);
+  box-shadow: 0 4px 18px rgba(15, 61, 94, 0.05);
+}
+.mc-links a.active {
+  background: var(--mc-tint);
+}
+.mc-dropdown {
+  border-radius: 14px;
+  box-shadow: 0 18px 40px rgba(15, 61, 94, 0.16);
+}
+.mc-dropdown a {
+  border-radius: 8px;
+}
+
+/* Page title band: the same gradient and glow as the home page */
+.mc-page-header {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 68px 0 60px;
+  background: linear-gradient(135deg, #0a2740 0%, #14507d 50%, #2b8fd0 100%);
+}
+.mc-page-header::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  right: -120px;
+  top: -160px;
+  width: 440px;
+  height: 440px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 154, 118, 0.55) 0%, rgba(255, 154, 118, 0) 70%);
+  filter: blur(40px);
+}
+.mc-page-header::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: -120px;
+  bottom: -180px;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(95, 195, 255, 0.5) 0%, rgba(95, 195, 255, 0) 70%);
+  filter: blur(40px);
+}
+.mc-page-header .mc-eyebrow {
+  display: inline-block;
+  margin-bottom: 1.1em;
+  padding: 5px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  opacity: 1;
+}
+.mc-page .mc-page-header h1 {
+  color: #fff;
+  letter-spacing: -0.015em;
+}
+.mc-page-header .mc-lead {
+  color: rgba(255, 255, 255, 0.9);
+  opacity: 1;
+}
+
+/* Section headings */
+.mc-page .mc-section > .container > h2.mc-center,
+.mc-page .mc-section > .container.mc-narrow > h2 {
+  color: var(--mc-ink);
+}
+.mc-page h2 {
+  letter-spacing: -0.01em;
+}
+
+/* Buttons */
+.mc-btn {
+  padding: 12px 28px;
+  box-shadow: 0 6px 16px rgba(15, 61, 94, 0.12);
+}
+.mc-page a.mc-btn-primary {
+  background: linear-gradient(135deg, var(--mh-sky), var(--mh-blue));
+  box-shadow: 0 10px 22px rgba(31, 110, 167, 0.3);
+}
+.mc-page a.mc-btn-primary:hover {
+  background: linear-gradient(135deg, var(--mh-blue), var(--mc-blue-dark));
+}
+.mc-page a.mc-btn-ghost {
+  box-shadow: none;
+}
+
+/* Cards */
+.mc-card {
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: 0 6px 20px rgba(15, 61, 94, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.mc-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(31, 110, 167, 0.3);
+  box-shadow: 0 18px 38px rgba(15, 61, 94, 0.12);
+}
+.mc-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  font-size: 1.3rem;
+  color: #fff;
+  border-radius: 15px;
+  background: linear-gradient(135deg, var(--mh-sky), var(--mh-blue));
+  box-shadow: 0 10px 20px rgba(31, 110, 167, 0.25);
+}
+.mc-tint {
+  background: linear-gradient(180deg, #f3f7fb 0%, #eaf2f9 100%);
+}
+
+/* Lists with ticks */
+.mc-list {
+  list-style: none;
+  padding-left: 0;
+}
+.mc-list li {
+  position: relative;
+  padding-left: 26px;
+}
+.mc-list li::before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 0.62em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--mh-sky), var(--mh-blue));
+}
+
+/* Numbered steps */
+.mc-steps li::before {
+  background: linear-gradient(135deg, var(--mh-sky), var(--mh-blue));
+  box-shadow: 0 6px 14px rgba(31, 110, 167, 0.25);
+}
+
+/* Documents (legal pages): easy to read, with a tidy contents box */
+.mc-doc {
+  line-height: 1.75;
+}
+.mc-toc {
+  padding: 22px 26px;
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid var(--mc-line);
+  box-shadow: 0 6px 20px rgba(15, 61, 94, 0.05);
+}
+.mc-doc-section {
+  padding-top: 8px;
+}
+.mc-doc-section h2 {
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--mc-tint);
+}
+.mc-notice {
+  border-radius: 12px;
+}
+.mc-updated {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--mc-tint);
+  font-size: 0.9rem;
+}
+.mc-related {
+  padding-top: 14px;
+  border-top: 1px solid var(--mc-line);
+}
+
+/* Footer */
+.mc-footer {
+  position: relative;
+  background: linear-gradient(180deg, #0c2236 0%, #081a2b 100%);
+  padding-top: 56px;
+}
+.mc-footer::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--mh-sky), var(--mh-warm-a), var(--mh-warm-b));
+}
+.mc-footer-legal {
+  border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Footer: five columns now (brand, product, legal, support, company) */
+.mc-footer-grid {
+  grid-template-columns: 1.3fr 0.9fr 1.5fr 1fr 0.8fr;
+}
+@media (max-width: 1000px) {
+  .mc-footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Contact band */
+.mc-contact {
+  background: linear-gradient(135deg, #14507d 0%, #2b8fd0 100%);
+}
+
+/* Phone screenshots */
+.mc-phone img {
+  border-radius: 30px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mc-card {
+    transition: none;
+  }
+  .mc-card:hover {
+    transform: none;
+  }
+}

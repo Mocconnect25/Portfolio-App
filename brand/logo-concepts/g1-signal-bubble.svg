@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="MOC logo: a chat bubble whose tail sends out signal arcs">
+  <title>MOC. Mode of Communication</title>
+  <defs>
+    <linearGradient id="g1-g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58b8f5"/><stop offset="1" stop-color="#1f6ea7"/></linearGradient>
+    <linearGradient id="g1-g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2b8fd0"/><stop offset="1" stop-color="#0f4a78"/></linearGradient>
+    <linearGradient id="g1-g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14507d"/><stop offset="1" stop-color="#0a2740"/></linearGradient>
+    <linearGradient id="g1-warm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd36e"/><stop offset="1" stop-color="#ff9a76"/></linearGradient>
+    <linearGradient id="g1-bub" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a2740"/><stop offset="0.55" stop-color="#14507d"/><stop offset="1" stop-color="#2b8fd0"/></linearGradient>
+  </defs>
+  <path d="M80.2 181.7 A88 88 0 1 0 22.3 137.3 L13 194 Z" fill="url(#g1-bub)" stroke-linejoin="round"/>
+  <path d="M62.0 110.0 A26 26 0 0 1 88.0 136.0" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity="1"/><path d="M62.0 88.0 A48 48 0 0 1 110.0 136.0" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity="0.8"/><path d="M62.0 66.0 A70 70 0 0 1 132.0 136.0" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" opacity="0.55"/>
+  <circle cx="62" cy="136" r="9" fill="url(#g1-warm)"/>
+</svg>

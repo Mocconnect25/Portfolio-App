@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 120" role="img" aria-label="MOC, Mode of Communication">
+  <title>MOC. Mode of Communication</title>
+  <svg x="0" y="0" width="120" height="120" viewBox="0 0 200 200" role="img" aria-label="MOC logo: three dots that grow in size, like a message being typed">
+  <title>MOC. Mode of Communication</title>
+  <defs>
+    <linearGradient id="k2l-tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3fb0f0"/><stop offset="1" stop-color="#1558a0"/></linearGradient>
+    <linearGradient id="k2l-warm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd36e"/><stop offset="1" stop-color="#ff7e5f"/></linearGradient>
+    <linearGradient id="k2l-blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3fb0f0"/><stop offset="1" stop-color="#1558a0"/></linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="46" fill="url(#k2l-tile)"/>
+  <circle cx="46" cy="122" r="11" fill="#ffffff"/>
+  <circle cx="86" cy="108" r="19" fill="#ffffff"/>
+  <circle cx="140" cy="86" r="31" fill="url(#k2l-warm)"/>
+</svg>
+  <g transform="translate(150 16) scale(0.98)"><g fill="none" stroke="#0b2c47" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 60 V6 L32 40 L58 6 V60"/>
+    <circle cx="110" cy="33" r="27"/>
+    <path d="M206.1 14.9 A27 27 0 1 0 206.1 51.1"/>
+  </g>
+  <circle cx="110" cy="33" r="7.5" fill="url(#k2l-warm)" stroke="none"/></g>
+  <text x="150" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" letter-spacing="4.2" fill="#5b6875" font-weight="600">MODE OF COMMUNICATION</text>
+</svg>

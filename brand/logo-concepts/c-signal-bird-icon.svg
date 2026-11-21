@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="MOC logo: a messenger bird whose wing is made of signal arcs, delivering a shopping bag">
+  <title>MOC. Mode of Communication</title>
+  <defs>
+    <linearGradient id="c-tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a2740"/><stop offset="0.55" stop-color="#14507d"/><stop offset="1" stop-color="#2b8fd0"/>
+    </linearGradient>
+    <linearGradient id="c-warm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd36e"/><stop offset="1" stop-color="#ff9a76"/>
+    </linearGradient>
+    <linearGradient id="c-blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3aa0e0"/><stop offset="1" stop-color="#1f6ea7"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="46" fill="url(#c-tile)"/>
+  <!-- the wing as three arcs: the signal -->
+  <g fill="none" stroke-linecap="round" stroke="#ffffff" stroke-width="9">
+    <path d="M26 112 C44 80 80 58 122 62" opacity="0.5"/>
+    <path d="M22 92 C42 58 84 38 130 44" opacity="0.75"/>
+    <path d="M24 72 C46 40 90 22 138 28"/>
+  </g>
+  <!-- body, head and beak -->
+  <path d="M78 112 C92 106 104 92 114 78 C122 66 134 58 148 58 C160 57 168 63 170 70 L184 76 L169 81 C168 94 160 106 146 114 C130 124 102 126 78 112 Z" fill="#ffffff"/>
+  <circle cx="152" cy="68" r="3.6" fill="#0a2740"/>
+  <!-- it carries a shopping bag by two short cords -->
+  <g stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" fill="none">
+    <path d="M128 120 L121 140"/><path d="M142 118 L149 140"/>
+  </g>
+  <path d="M113 140 H157 L162 178 Q162 184 156 184 H114 Q108 184 108 178 Z" fill="url(#c-warm)" stroke="url(#c-warm)" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M126 148 C126 160 144 160 144 148" fill="none" stroke="#0a2740" stroke-width="3.6" stroke-linecap="round" opacity="0.55"/>
+</svg>

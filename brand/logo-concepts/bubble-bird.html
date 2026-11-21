@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>MOC bird in a chat bubble</title>
+<style>
+  body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; color: #1d2733; background: #f3f7fb; }
+  header { padding: 28px 32px 8px; }
+  h1 { margin: 0 0 4px; font-size: 1.6rem; }
+  header p { margin: 0; color: #5b6875; max-width: 62em; }
+  .grid { display: flex; flex-wrap: wrap; gap: 20px; padding: 20px 32px 40px; }
+  .card { flex: 1 1 300px; background: #fff; border: 1px solid #dfe7ee; border-radius: 20px; padding: 20px; box-sizing: border-box; }
+  .card h2 { margin: 0 0 4px; font-size: 1.1rem; }
+  .idea { margin: 0 0 14px; color: #5b6875; font-size: 0.9rem; line-height: 1.5; }
+  .stage { display: flex; align-items: center; justify-content: center; border-radius: 14px; padding: 18px; margin-bottom: 12px; }
+  .light { background: #fff; border: 1px solid #dfe7ee; }
+  .dark { background: #0b2c47; }
+  .home { background: linear-gradient(160deg, #cfd8e3, #aebccc); }
+  .stage img.big { width: 260px; height: 260px; }
+  .row { display: flex; align-items: flex-end; justify-content: center; gap: 20px; }
+  .row figure { margin: 0; text-align: center; font-size: 0.75rem; color: #8a96a2; }
+  .home .row figure { color: #4b5a6b; }
+  .row img { display: block; margin: 0 auto 4px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Your bird in a chat bubble</h1>
+  <p>The whole icon is filled with the app's colours, like WhatsApp. A white-outlined circular chat bubble holds your bird in its own blue colours, with a white outline so it stands out. The tail is on the bottom right.</p>
+</header>
+<div class="grid">
+  <section class="card">
+    <h2>1. Blue app icon</h2>
+    <p class="idea">The deep-to-bright blue gradient fills the whole icon, inside and outside the bubble.</p>
+    <div class="stage light"><img class="big" src="bubble-bird-blue.png" alt="Blue app icon" /></div>
+    <div class="stage home"><div class="row"><figure><img src="bubble-bird-blue.png" width="96" height="96" alt="" />96px</figure><figure><img src="bubble-bird-blue.png" width="60" height="60" alt="" />60px</figure><figure><img src="bubble-bird-blue.png" width="32" height="32" alt="" />32px</figure><figure><img src="bubble-bird-blue.png" width="16" height="16" alt="" />16px</figure></div></div>
+  </section>
+  <section class="card">
+    <h2>2. Blue with a warm glow</h2>
+    <p class="idea">The same icon with a warm coral glow in the bottom-right corner, so it carries all the app's colours.</p>
+    <div class="stage light"><img class="big" src="bubble-bird-warm.png" alt="Warm glow app icon" /></div>
+    <div class="stage home"><div class="row"><figure><img src="bubble-bird-warm.png" width="96" height="96" alt="" />96px</figure><figure><img src="bubble-bird-warm.png" width="60" height="60" alt="" />60px</figure><figure><img src="bubble-bird-warm.png" width="32" height="32" alt="" />32px</figure><figure><img src="bubble-bird-warm.png" width="16" height="16" alt="" />16px</figure></div></div>
+  </section>
+</div>
+</body>
+</html>

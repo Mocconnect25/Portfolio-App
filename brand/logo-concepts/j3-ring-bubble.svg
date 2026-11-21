@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="MOC logo: a thick O ring shaped as a chat bubble, with a glowing dot">
+  <title>MOC. Mode of Communication</title>
+  <defs>
+    <linearGradient id="j3-blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3fb0f0"/><stop offset="1" stop-color="#1558a0"/></linearGradient>
+    <linearGradient id="j3-deep" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f6ea7"/><stop offset="1" stop-color="#0a2f52"/></linearGradient>
+    <linearGradient id="j3-warm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffd36e"/><stop offset="1" stop-color="#ff7e5f"/></linearGradient>
+  </defs>
+  <circle cx="96" cy="106" r="58" fill="none" stroke="url(#j3-blue)" stroke-width="26"/>
+  <path d="M121.1 43.9 L172.8 34.4 L159.7 85.3 Z" fill="url(#j3-blue)" stroke="url(#j3-blue)" stroke-width="6" stroke-linejoin="round"/>
+  <circle cx="96" cy="106" r="19" fill="url(#j3-warm)"/>
+</svg>
