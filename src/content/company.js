@@ -16,8 +16,8 @@ export const COMPANY = {
 export const LEGAL = {
   // While true, every legal page carries a notice that it is a draft awaiting review.
   // Set to false once the documents have been reviewed and approved.
-  isDraft: true,
-  lastUpdated: '21 November 2026',
+  isDraft: false,
+  lastUpdated: '26 November 2026',
   minimumAge: 18,
   governingCourts: 'Andhra Pradesh, India',
 };
@@ -30,7 +30,7 @@ export const SUPPORT = {
   deletionWithinDays: 30,
   // Grievance Officer required under the Information Technology Rules, 2021.
   grievanceOfficer: {
-    name: 'Name to be added',
+    name: 'Srinivas Gurazala',
     designation: 'Grievance Officer',
     email: 'info@mocconnect.in',
     hours: 'Monday to Friday, 10:00 am to 6:00 pm IST',

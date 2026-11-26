@@ -1,10 +1,10 @@
 /* Features & Premium page. Every class here starts with mf- and is used only by pages/Features.js. */
 .mf {
-  --mf-deep: #0b2c47;
+  --mf-deep: #1f6ea7;
   --mf-blue: #1f6ea7;
-  --mf-sky: #3aa0e0;
-  --mf-warm-a: #ffd36e;
-  --mf-warm-b: #ff9a76;
+  --mf-sky: #1f6ea7;
+  --mf-warm-a: #1f6ea7;
+  --mf-warm-b: #1f6ea7;
   overflow-x: hidden;
 }
 
@@ -16,7 +16,7 @@
   color: #fff;
   text-align: center;
   padding: 88px 0 76px;
-  background: linear-gradient(135deg, #0a2740 0%, #14507d 45%, #2b8fd0 100%);
+  background: #1f6ea7;
 }
 .mf-orb {
   position: absolute;
@@ -31,14 +31,14 @@
   height: 400px;
   left: -110px;
   top: -130px;
-  background: radial-gradient(circle, #5fc3ff 0%, rgba(95, 195, 255, 0) 70%);
+  background: none;
 }
 .mf-orb-b {
   width: 360px;
   height: 360px;
   right: -90px;
   bottom: -120px;
-  background: radial-gradient(circle, #ff9a76 0%, rgba(255, 154, 118, 0) 70%);
+  background: none;
   animation-delay: -6s;
 }
 @keyframes mf-float {
@@ -85,7 +85,7 @@
   margin-bottom: 0.45em;
 }
 .mf-grad {
-  background: linear-gradient(90deg, var(--mf-warm-a), var(--mf-warm-b));
+  background: linear-gradient(90deg, #ffffff, #ffffff);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -136,7 +136,7 @@
   color: var(--mf-sky);
 }
 .mf-kicker-gold {
-  color: var(--mf-warm-a);
+  color: #ffffff;
 }
 .mc-page .mf-title {
   font-size: clamp(1.8rem, 3.4vw, 2.5rem);
@@ -176,13 +176,13 @@
   font-size: 1.45rem;
   color: #fff;
   border-radius: 17px;
-  background: linear-gradient(135deg, var(--mf-sky), var(--mf-blue));
+  background: #1f6ea7;
   box-shadow: 0 10px 22px rgba(31, 110, 167, 0.3);
 }
 .mf-tile-gold {
-  color: var(--mf-deep);
-  background: linear-gradient(135deg, var(--mf-warm-a), var(--mf-warm-b));
-  box-shadow: 0 10px 22px rgba(255, 154, 118, 0.3);
+  color: #ffffff;
+  background: #1f6ea7;
+  box-shadow: 0 10px 22px rgba(31, 110, 167, 0.25);
 }
 .mc-page .mf-card h3 {
   margin: 0 0 4px;
@@ -258,14 +258,14 @@
   color: var(--mc-ink);
 }
 .mf-table .mf-th-premium {
-  color: var(--mf-deep);
-  background: linear-gradient(135deg, var(--mf-warm-a), var(--mf-warm-b));
+  color: #ffffff;
+  background: #1f6ea7;
 }
 .mf-table .mf-th-premium svg {
   margin-right: 6px;
 }
 .mf-td-premium {
-  background: #fffaf0;
+  background: #eef5fa;
 }
 .mf-yes,
 .mf-no {
@@ -279,7 +279,7 @@
 }
 .mf-yes {
   color: #fff;
-  background: linear-gradient(135deg, var(--mf-sky), var(--mf-blue));
+  background: #1f6ea7;
 }
 .mf-no {
   color: #9aa7b3;
@@ -293,7 +293,7 @@
   overflow: hidden;
   padding: 88px 0;
   color: #fff;
-  background: linear-gradient(160deg, #081f33 0%, #0e3a5c 100%);
+  background: #1f6ea7;
 }
 .mf-premium-glow {
   position: absolute;
@@ -303,7 +303,7 @@
   width: 800px;
   height: 480px;
   transform: translateX(-50%);
-  background: radial-gradient(ellipse, rgba(255, 211, 110, 0.28) 0%, rgba(255, 211, 110, 0) 70%);
+  background: none;
 }
 .mf-premium-sub {
   max-width: 36em;
@@ -318,7 +318,7 @@
 }
 .mf-card-premium:hover {
   background: rgba(255, 255, 255, 0.11);
-  border-color: rgba(255, 211, 110, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0 24px 46px rgba(0, 0, 0, 0.3);
 }
 .mc-page .mf-card-premium h3 {
@@ -332,11 +332,11 @@
   color: rgba(255, 255, 255, 0.92);
 }
 .mf-card-premium .mf-points li svg {
-  color: var(--mf-warm-a);
+  color: #ffffff;
 }
 .mf-card-premium .mf-caveat {
   color: #fff3cf;
-  background: rgba(255, 211, 110, 0.12);
+  background: rgba(255, 255, 255, 0.12);
 }
 .mf-notes {
   max-width: 760px;
@@ -375,9 +375,9 @@
   text-decoration: none;
 }
 .mc-page a.mf-btn-solid {
-  color: #0b2c47;
-  background: linear-gradient(90deg, var(--mf-warm-a), var(--mf-warm-b));
-  box-shadow: 0 10px 28px rgba(255, 154, 118, 0.35);
+  color: #1f6ea7;
+  background: #ffffff;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
 }
 .mc-page a.mf-btn-glass {
   color: #fff;
@@ -390,7 +390,7 @@
 .mf-cta {
   padding: 76px 0;
   color: #fff;
-  background: linear-gradient(135deg, #14507d 0%, #2b8fd0 100%);
+  background: #1f6ea7;
 }
 .mc-page .mf-cta h2 {
   color: #fff;

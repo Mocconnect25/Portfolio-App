@@ -15,7 +15,7 @@ export const LIMITS = {
   normalMaxLists: 50,
   normalMaxPeoplePerList: 60,
   groupMaxMembers: 100,
-  groupCallMaxMembers: 5,
+  groupCallMaxMembers: 4,
 };
 
 export const FEATURES = [
@@ -37,7 +37,7 @@ export const FEATURES = [
     points: [
       'Text, photos, videos, voice notes, files and your location.',
       'Reply to a message, forward it, or delete it for yourself or for everyone.',
-      'Typing indicators and read receipts, which you can turn off in Privacy settings.',
+      'Typing indicators and read receipts, so you can see when a message has been delivered and read.',
       'Messages sent while you are offline are delivered when you are back online.',
       'You choose which photos, audio, videos and documents download by themselves on mobile data, on Wi-Fi and when roaming (Settings, Storage and data).',
     ],
@@ -60,10 +60,10 @@ export const FEATURES = [
     summary: 'Built so that what you say stays between you and your loved ones.',
     points: [
       'End-to-end encrypted one-to-one messages: they are locked on your phone and can only be opened on the other person’s phone. We cannot read them.',
-      'Encrypted voice and video calls: the audio and video go directly between the phones, protected in transit, and we do not record or store calls.',
+      'Encrypted voice and video calls: the audio and video travel encrypted between the phones (through a relay server only when a direct connection is not possible, and the relay cannot listen in). We do not record or store calls.',
       'End-to-end encrypted group messages: each group has its own secret key that only its members\u2019 phones hold. It is replaced whenever someone joins or leaves.',
       'Sign in with your phone number and a one-time code. Your account works on one phone at a time.',
-      'Block anyone, and report a sender from the flag at the top of a chat.',
+      'Block anyone, and report a sender from the menu (⋮) at the top of a chat.',
       'Delete your account yourself, from inside the app.',
     ],
     caveat:
@@ -121,7 +121,7 @@ export const PREMIUM_NOTES = [
 // false show as a tick and a dash, text is shown as written.
 export const COMPARE = [
   ['Messaging, voice and video calls', true, true],
-  ['Groups (up to 100 people) and group calls (up to 5)', true, true],
+  [`Groups (up to ${LIMITS.groupMaxMembers} people) and group calls (up to ${LIMITS.groupCallMaxMembers})`, true, true],
   ['End-to-end encrypted chats', true, true],
   ['Block and report', true, true],
   ['Checklists', `Up to ${LIMITS.normalMaxLists}, each shared with up to ${LIMITS.normalMaxPeoplePerList} people`, 'No limits'],

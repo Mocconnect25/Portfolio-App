@@ -1,4 +1,5 @@
 import { COMPANY, SUPPORT } from './company';
+import { LIMITS } from './features';
 
 const { appName: APP, email: EMAIL } = COMPANY;
 
@@ -17,12 +18,12 @@ export const HELP_TOPICS = [
         q: 'I did not receive the code.',
         a: [
           'Check that the number is correct and that your phone has signal, then wait a minute and ask for a new code. Codes are valid for 10 minutes.',
-          'To protect your number, only a limited number of codes can be requested in a day. If you have reached the limit, try again later.',
+          'To protect your number, you can ask for one code a minute and up to five codes an hour. If you have reached the limit, try again later.',
         ],
       },
       {
         q: 'It says there were too many incorrect attempts.',
-        a: ['After several wrong entries the code is cancelled. Ask for a new code and enter it carefully.'],
+        a: ['After five wrong entries the code is cancelled. Ask for a new code and enter it carefully.'],
       },
       {
         q: 'Can I use my account on two phones?',
@@ -123,8 +124,8 @@ export const HELP_TOPICS = [
         q: 'How do group chats work?',
         a: [
           'Open the menu on the chats screen and choose "New group". Name the group and pick people from your contacts. You become its admin.',
-          'Admins can rename the group, add or remove people, and make other people admins, from Group info. Anyone can leave. A group can have up to 100 people.',
-          'Voice and video calls are available in groups of up to 5 people. In bigger groups the call buttons are not shown.',
+          `Admins can rename the group, add or remove people, and make other people admins, from Group info. Anyone can leave. A group can have up to ${LIMITS.groupMaxMembers} people.`,
+          `Voice and video calls are available in groups of up to ${LIMITS.groupCallMaxMembers} people. In bigger groups the call buttons are not shown.`,
         ],
       },
       {
@@ -135,12 +136,14 @@ export const HELP_TOPICS = [
       },
       {
         q: 'How do I block someone?',
-        a: ['You can block a contact in the app. Blocked contacts are listed in Settings, where you can unblock them.'],
+        a: [
+          'Open the chat, tap the menu (⋮) at the top and choose "Block". Blocked contacts are listed in Settings, under Privacy & Security, where you can unblock them.',
+        ],
       },
       {
         q: 'I got a message from a number I do not know. What can I do?',
         a: [
-          'Open the chat and tap the flag at the top to report the sender. Choose a reason, and choose "Report and block" if you do not want to hear from them again.',
+          'Open the chat, tap the menu (⋮) at the top and choose "Report". Choose a reason, and choose "Report and block" if you do not want to hear from them again.',
           'Chats from numbers that are not in your contacts show a notice at the top with the same option.',
         ],
       },
@@ -162,7 +165,7 @@ export const HELP_TOPICS = [
       {
         q: 'What is the difference between a Normal and a Premium account?',
         a: [
-          'Every account starts as Normal. A Normal account can create up to 50 lists and share each list with up to 60 people.',
+          `Every account starts as Normal. A Normal account can create up to ${LIMITS.normalMaxLists} lists and share each list with up to ${LIMITS.normalMaxPeoplePerList} people.`,
           'Premium is the paid plan for shop owners. It adds priced lists and removes both limits. Your current plan is shown in Settings, under Subscription.',
         ],
       },

@@ -15,7 +15,7 @@ const HERO_BADGES = [
 const PRIVACY_POINTS = [
   [FaLock, 'End-to-end encrypted chats', 'Messages are locked on your phone and opened only on the phones of the people in the chat. We cannot read them.'],
   [FaUsers, 'Private groups too', 'Every group has its own secret key, replaced whenever someone joins or leaves.'],
-  [FaPhoneAlt, 'Protected calls', 'Voice and video go directly between phones, and calls are never recorded.'],
+  [FaPhoneAlt, 'Protected calls', 'Voice and video travel encrypted between phones, and calls are never recorded.'],
 ];
 
 function StepList({ icon: Icon, title, note, steps }) {

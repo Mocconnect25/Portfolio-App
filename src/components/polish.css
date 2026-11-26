@@ -3,11 +3,11 @@
  * documents and the footer. Loaded after site.css, so it refines what is there.
  */
 .mc-page {
-  --mh-deep: #0b2c47;
+  --mh-deep: #1f6ea7;
   --mh-blue: #1f6ea7;
-  --mh-sky: #3aa0e0;
-  --mh-warm-a: #ffd36e;
-  --mh-warm-b: #ff9a76;
+  --mh-sky: #1f6ea7;
+  --mh-warm-a: #1f6ea7;
+  --mh-warm-b: #1f6ea7;
 }
 
 /* Header: a light frosted bar that stays put */
@@ -34,7 +34,7 @@
   isolation: isolate;
   overflow: hidden;
   padding: 68px 0 60px;
-  background: linear-gradient(135deg, #0a2740 0%, #14507d 50%, #2b8fd0 100%);
+  background: #1f6ea7;
 }
 .mc-page-header::before {
   content: '';
@@ -45,7 +45,7 @@
   width: 440px;
   height: 440px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(255, 154, 118, 0.55) 0%, rgba(255, 154, 118, 0) 70%);
+  background: none;
   filter: blur(40px);
 }
 .mc-page-header::after {
@@ -57,7 +57,7 @@
   width: 420px;
   height: 420px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(95, 195, 255, 0.5) 0%, rgba(95, 195, 255, 0) 70%);
+  background: none;
   filter: blur(40px);
 }
 .mc-page-header .mc-eyebrow {
@@ -93,11 +93,11 @@
   box-shadow: 0 6px 16px rgba(15, 61, 94, 0.12);
 }
 .mc-page a.mc-btn-primary {
-  background: linear-gradient(135deg, var(--mh-sky), var(--mh-blue));
+  background: #1f6ea7;
   box-shadow: 0 10px 22px rgba(31, 110, 167, 0.3);
 }
 .mc-page a.mc-btn-primary:hover {
-  background: linear-gradient(135deg, var(--mh-blue), var(--mc-blue-dark));
+  background: #17557f;
 }
 .mc-page a.mc-btn-ghost {
   box-shadow: none;
@@ -124,7 +124,7 @@
   font-size: 1.3rem;
   color: #fff;
   border-radius: 15px;
-  background: linear-gradient(135deg, var(--mh-sky), var(--mh-blue));
+  background: #1f6ea7;
   box-shadow: 0 10px 20px rgba(31, 110, 167, 0.25);
 }
 .mc-tint {
@@ -148,12 +148,12 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--mh-sky), var(--mh-blue));
+  background: #1f6ea7;
 }
 
 /* Numbered steps */
 .mc-steps li::before {
-  background: linear-gradient(135deg, var(--mh-sky), var(--mh-blue));
+  background: #1f6ea7;
   box-shadow: 0 6px 14px rgba(31, 110, 167, 0.25);
 }
 
@@ -193,7 +193,7 @@
 /* Footer */
 .mc-footer {
   position: relative;
-  background: linear-gradient(180deg, #0c2236 0%, #081a2b 100%);
+  background: #1f6ea7;
   padding-top: 56px;
 }
 .mc-footer::before {
@@ -203,7 +203,7 @@
   right: 0;
   top: 0;
   height: 3px;
-  background: linear-gradient(90deg, var(--mh-sky), var(--mh-warm-a), var(--mh-warm-b));
+  background: rgba(255, 255, 255, 0.25);
 }
 .mc-footer-legal {
   border-top-color: rgba(255, 255, 255, 0.1);
@@ -221,7 +221,7 @@
 
 /* Contact band */
 .mc-contact {
-  background: linear-gradient(135deg, #14507d 0%, #2b8fd0 100%);
+  background: #1f6ea7;
 }
 
 /* Phone screenshots */

@@ -332,7 +332,7 @@ export const communityGuidelines = {
     {
       h: 'Reporting a problem',
       items: [
-        `You can block a user in the app, and report them from the flag at the top of the chat. You can also write to ${EMAIL} with their number and what happened. Because chat messages are encrypted, we cannot read them ourselves; include screenshots if you want us to see what was said.`,
+        `You can block a user in the app, and report them from the menu (⋮) at the top of the chat. You can also write to ${EMAIL} with their number and what happened. Because chat messages are encrypted, we cannot read them ourselves; include screenshots if you want us to see what was said.`,
       ],
     },
     {
