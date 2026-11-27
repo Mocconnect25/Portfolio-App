@@ -193,7 +193,7 @@
 /* Footer */
 .mc-footer {
   position: relative;
-  background: #1f6ea7;
+  background: linear-gradient(180deg, #0c2236 0%, #081a2b 100%);
   padding-top: 56px;
 }
 .mc-footer::before {
@@ -203,7 +203,7 @@
   right: 0;
   top: 0;
   height: 3px;
-  background: rgba(255, 255, 255, 0.25);
+  background: linear-gradient(90deg, #1f6ea7, #ffd36e, #ff9a76);
 }
 .mc-footer-legal {
   border-top-color: rgba(255, 255, 255, 0.1);

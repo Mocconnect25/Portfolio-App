@@ -94,7 +94,7 @@
   margin-bottom: 0.45em;
 }
 .mh-grad {
-  background: linear-gradient(90deg, #ffffff, #ffffff);
+  background: linear-gradient(90deg, #ffd36e, #ff9a76);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -127,12 +127,12 @@
   text-decoration: none;
 }
 .mc-page a.mh-btn-solid {
-  color: #1f6ea7;
-  background: #ffffff;
-  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.18);
+  color: #0b2c47;
+  background: linear-gradient(90deg, #ffd36e, #ff9a76);
+  box-shadow: 0 10px 28px rgba(255, 154, 118, 0.35);
 }
 .mc-page a.mh-btn-solid:hover {
-  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 14px 34px rgba(255, 154, 118, 0.5);
 }
 .mc-page a.mh-btn-glass {
   color: #fff;

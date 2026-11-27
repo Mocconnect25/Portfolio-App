@@ -1,4 +1,4 @@
-// What the app does, in words. Used by the Home and About MoC pages.
+// What the app does, in words. Used by the Home and About Mocc pages.
 import {
   FaComments,
   FaPhoneAlt,
@@ -21,7 +21,7 @@ export const CUSTOMER_STEPS = [
   ['Send the order', 'The shop gets it straight away. Pick it up, or arrange delivery with the shop.'],
 ];
 
-// The short version shown on the Home and About MoC pages. The full version is the
+// The short version shown on the Home and About Mocc pages. The full version is the
 // Features & Premium page (src/content/features.js).
 export const FEATURES = [
   {

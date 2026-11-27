@@ -28,7 +28,7 @@ export const MENU = [
   {
     title: 'Company',
     links: [
-      ['/company/about-moc', 'About MoC'],
+      ['/company/about-moc', 'About Mocc'],
       ['/company/about-us', 'About Us'],
     ],
   },

@@ -2,7 +2,7 @@
 // Change a value here and every page that mentions it updates.
 
 export const COMPANY = {
-  appName: 'MoC',
+  appName: 'Mocc',
   shortName: 'MOC Connect',
   legalName: 'MOC Connect Private Limited',
   email: 'info@mocconnect.in',
